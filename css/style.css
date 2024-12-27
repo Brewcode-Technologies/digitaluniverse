@@ -627,7 +627,7 @@ html.lenis {
 }
 
 .main-menu-mobile .navbar-nav ul li a {
-  color: var(--colorBlack);
+  color: var(--colorBlack ) ;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.6px;
@@ -3794,6 +3794,6 @@ h5.preloader-text::after {
 
 .submenu a.active {
   background-color:var(--colorPrimary); 
-  color: var(--colorWhite); 
+  color: var(--colorWhite) !important; 
 
 }
