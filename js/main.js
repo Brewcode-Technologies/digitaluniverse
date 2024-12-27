@@ -13,7 +13,7 @@
       : false;
 
   var fxotary = {
-    /* Init */
+ 
     init() {
       fxotary.imgToSvg(),
         fxotary.customMouse(),
@@ -63,7 +63,6 @@
       var active = false;
       var ball = $("#ball");
 
-      /** default */
       const defaultValue = {
         duration: 0.3,
         opacity: 0.5,

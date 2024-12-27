@@ -1,14 +1,4 @@
-/**
- * File Type: Custom Spacing (margin and padding) classes
- * Author: Mahamudul Hassan Sazal
- * Author Website: http://www.freelancersazal.com
- * Author Email: sazal1912@gmail.com
- */
 
- 
-/* ------------------------------------------ */
-/* Margin All */
-/* ------------------------------------------ */
 .m_0 {margin: 0px !important;}
 .m_5 {margin: 5px !important;}
 .m_10 {margin: 10px !important;}
@@ -63,9 +53,7 @@
 
 
 
-/* ------------------------------------------ */
-/* Margin Top */
-/* ------------------------------------------ */
+
 .mt_0 {margin-top: 0px !important;}
 .mt_5 {margin-top: 5px !important;}
 .mt_10 {margin-top: 10px !important;}
@@ -120,9 +108,6 @@
 
 
 
-/* ------------------------------------------ */
-/* Margin Bottom */
-/* ------------------------------------------ */
 .mb_0 {margin-bottom: 0px !important;}
 .mb_5 {margin-bottom: 5px !important;}
 .mb_10 {margin-bottom: 10px !important;}
@@ -175,11 +160,6 @@
 .mb_245 {margin-bottom: 245px !important;}
 .mb_250 {margin-bottom: 250px !important;}
 
-
-
-/* ------------------------------------------ */
-/* Margin Left */
-/* ------------------------------------------ */
 .ml_0 {margin-left: 0px !important;}
 .ml_5 {margin-left: 5px !important;}
 .ml_10 {margin-left: 10px !important;}
@@ -233,9 +213,7 @@
 .ml_250 {margin-left: 250px !important;}
 
 
-/* ------------------------------------------ */
-/* Margin Right */
-/* ------------------------------------------ */
+
 .mr_0 {margin-right: 0px !important;}
 .mr_5 {margin-right: 5px !important;}
 .mr_10 {margin-right: 10px !important;}
@@ -288,13 +266,6 @@
 .mr_245 {margin-right: 245px !important;}
 .mr_250 {margin-right: 250px !important;}
 
-
-
-
-
-/* ------------------------------------------ */
-/* Padding All */
-/* ------------------------------------------ */
 .p_0 {padding: 0px !important;}
 .p_5 {padding: 5px !important;}
 .p_10 {padding: 10px !important;}
@@ -349,9 +320,6 @@
 
 
 
-/* ------------------------------------------ */
-/* Padding Top */
-/* ------------------------------------------ */
 .pt_0 {padding-top: 0px !important;}
 .pt_5 {padding-top: 5px !important;}
 .pt_10 {padding-top: 10px !important;}
@@ -406,9 +374,7 @@
 
 
 
-/* ------------------------------------------ */
-/* Padding Bottom */
-/* ------------------------------------------ */
+
 .pb_0 {padding-bottom: 0px !important;}
 .pb_5 {padding-bottom: 5px !important;}
 .pb_10 {padding-bottom: 10px !important;}
@@ -463,9 +429,7 @@
 
 
 
-/* ------------------------------------------ */
-/* Padding Left */
-/* ------------------------------------------ */
+
 .pl_0 {padding-left: 0px !important;}
 .pl_5 {padding-left: 5px !important;}
 .pl_10 {padding-left: 10px !important;}
@@ -519,9 +483,6 @@
 .pl_250 {padding-left: 250px !important;}
 
 
-/* ------------------------------------------ */
-/* Padding Right */
-/* ------------------------------------------ */
 .pr_0 {padding-right: 0px !important;}
 .pr_5 {padding-right: 5px !important;}
 .pr_10 {padding-right: 10px !important;}
@@ -578,13 +539,9 @@
 
 
 
-/* ------------------------------------------ */
-/* For Responsive Layouts */
-/* ------------------------------------------ */
+
 @media only screen and (min-width: 1200px) {
-	/* ------------------------------------------ */
-	/* Margin All */
-	/* ------------------------------------------ */
+	
 	.lg_m_0 {margin: 0px !important;}
 	.lg_m_5 {margin: 5px !important;}
 	.lg_m_10 {margin: 10px !important;}
@@ -639,9 +596,7 @@
 
 
 
-	/* ------------------------------------------ */
-	/* Margin Top */
-	/* ------------------------------------------ */
+	
 	.lg_mt_0 {margin-top: 0px !important;}
 	.lg_mt_5 {margin-top: 5px !important;}
 	.lg_mt_10 {margin-top: 10px !important;}
@@ -696,9 +651,7 @@
 
 
 
-	/* ------------------------------------------ */
-	/* Margin Bottom */
-	/* ------------------------------------------ */
+
 	.lg_mb_0 {margin-bottom: 0px !important;}
 	.lg_mb_5 {margin-bottom: 5px !important;}
 	.lg_mb_10 {margin-bottom: 10px !important;}
@@ -753,9 +706,7 @@
 
 
 
-	/* ------------------------------------------ */
-	/* Margin Left */
-	/* ------------------------------------------ */
+
 	.lg_ml_0 {margin-left: 0px !important;}
 	.lg_ml_5 {margin-left: 5px !important;}
 	.lg_ml_10 {margin-left: 10px !important;}
@@ -809,9 +760,7 @@
 	.lg_ml_250 {margin-left: 250px !important;}
 
 
-	/* ------------------------------------------ */
-	/* Margin Right */
-	/* ------------------------------------------ */
+
 	.lg_mr_0 {margin-right: 0px !important;}
 	.lg_mr_5 {margin-right: 5px !important;}
 	.lg_mr_10 {margin-right: 10px !important;}
@@ -867,10 +816,6 @@
 
 
 
-
-	/* ------------------------------------------ */
-	/* Padding All */
-	/* ------------------------------------------ */
 	.lg_p_0 {padding: 0px !important;}
 	.lg_p_5 {padding: 5px !important;}
 	.lg_p_10 {padding: 10px !important;}
@@ -925,9 +870,7 @@
 
 
 
-	/* ------------------------------------------ */
-	/* Padding Top */
-	/* ------------------------------------------ */
+
 	.lg_pt_0 {padding-top: 0px !important;}
 	.lg_pt_5 {padding-top: 5px !important;}
 	.lg_pt_10 {padding-top: 10px !important;}
@@ -981,9 +924,7 @@
 	.lg_pt_250 {padding-top: 250px !important;}
 
 
-	/* ------------------------------------------ */
-	/* Padding Bottom */
-	/* ------------------------------------------ */
+
 	.lg_pb_0 {padding-bottom: 0px !important;}
 	.lg_pb_5 {padding-bottom: 5px !important;}
 	.lg_pb_10 {padding-bottom: 10px !important;}
@@ -1038,9 +979,7 @@
 
 
 
-	/* ------------------------------------------ */
-	/* Padding Left */
-	/* ------------------------------------------ */
+	
 	.lg_pl_0 {padding-left: 0px !important;}
 	.lg_pl_5 {padding-left: 5px !important;}
 	.lg_pl_10 {padding-left: 10px !important;}
@@ -1094,9 +1033,7 @@
 	.lg_pl_250 {padding-left: 250px !important;}
 
 
-	/* ------------------------------------------ */
-	/* Padding Right */
-	/* ------------------------------------------ */
+	
 	.lg_pr_0 {padding-right: 0px !important;}
 	.lg_pr_5 {padding-right: 5px !important;}
 	.lg_pr_10 {padding-right: 10px !important;}
@@ -1151,9 +1088,7 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-	/* ------------------------------------------ */
-	/* Margin All */
-	/* ------------------------------------------ */
+	
 	.md_m_0 {margin: 0px !important;}
 	.md_m_5 {margin: 5px !important;}
 	.md_m_10 {margin: 10px !important;}
@@ -1208,9 +1143,7 @@
 
 
 
-	/* ------------------------------------------ */
-	/* Margin Top */
-	/* ------------------------------------------ */
+	
 	.md_mt_0 {margin-top: 0px !important;}
 	.md_mt_5 {margin-top: 5px !important;}
 	.md_mt_10 {margin-top: 10px !important;}
@@ -1265,9 +1198,6 @@
 
 
 
-	/* ------------------------------------------ */
-	/* Margin Bottom */
-	/* ------------------------------------------ */
 	.md_mb_0 {margin-bottom: 0px !important;}
 	.md_mb_5 {margin-bottom: 5px !important;}
 	.md_mb_10 {margin-bottom: 10px !important;}
@@ -1320,11 +1250,6 @@
 	.md_mb_245 {margin-bottom: 245px !important;}
 	.md_mb_250 {margin-bottom: 250px !important;}
 
-
-
-	/* ------------------------------------------ */
-	/* Margin Left */
-	/* ------------------------------------------ */
 	.md_ml_0 {margin-left: 0px !important;}
 	.md_ml_5 {margin-left: 5px !important;}
 	.md_ml_10 {margin-left: 10px !important;}
@@ -1377,10 +1302,6 @@
 	.md_ml_245 {margin-left: 245px !important;}
 	.md_ml_250 {margin-left: 250px !important;}
 
-
-	/* ------------------------------------------ */
-	/* Margin Right */
-	/* ------------------------------------------ */
 	.md_mr_0 {margin-right: 0px !important;}
 	.md_mr_5 {margin-right: 5px !important;}
 	.md_mr_10 {margin-right: 10px !important;}
@@ -1434,12 +1355,6 @@
 	.md_mr_250 {margin-right: 250px !important;}
 
 
-
-
-
-	/* ------------------------------------------ */
-	/* Padding All */
-	/* ------------------------------------------ */
 	.md_p_0 {padding: 0px !important;}
 	.md_p_5 {padding: 5px !important;}
 	.md_p_10 {padding: 10px !important;}
@@ -1494,9 +1409,7 @@
 
 
 
-	/* ------------------------------------------ */
-	/* Padding Top */
-	/* ------------------------------------------ */
+
 	.md_pt_0 {padding-top: 0px !important;}
 	.md_pt_5 {padding-top: 5px !important;}
 	.md_pt_10 {padding-top: 10px !important;}
@@ -1549,10 +1462,6 @@
 	.md_pt_245 {padding-top: 245px !important;}
 	.md_pt_250 {padding-top: 250px !important;}
 
-
-	/* ------------------------------------------ */
-	/* Padding Bottom */
-	/* ------------------------------------------ */
 	.md_pb_0 {padding-bottom: 0px !important;}
 	.md_pb_5 {padding-bottom: 5px !important;}
 	.md_pb_10 {padding-bottom: 10px !important;}
@@ -1606,10 +1515,6 @@
 	.md_pb_250 {padding-bottom: 250px !important;}
 
 
-
-	/* ------------------------------------------ */
-	/* Padding Left */
-	/* ------------------------------------------ */
 	.md_pl_0 {padding-left: 0px !important;}
 	.md_pl_5 {padding-left: 5px !important;}
 	.md_pl_10 {padding-left: 10px !important;}
@@ -1662,10 +1567,6 @@
 	.md_pl_245 {padding-left: 245px !important;}
 	.md_pl_250 {padding-left: 250px !important;}
 
-
-	/* ------------------------------------------ */
-	/* Padding Right */
-	/* ------------------------------------------ */
 	.md_pr_0 {padding-right: 0px !important;}
 	.md_pr_5 {padding-right: 5px !important;}
 	.md_pr_10 {padding-right: 10px !important;}
@@ -1720,9 +1621,7 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	/* ------------------------------------------ */
-	/* Margin All */
-	/* ------------------------------------------ */
+	
 	.sm_m_0 {margin: 0px !important;}
 	.sm_m_5 {margin: 5px !important;}
 	.sm_m_10 {margin: 10px !important;}
@@ -1777,9 +1676,6 @@
 
 
 
-	/* ------------------------------------------ */
-	/* Margin Top */
-	/* ------------------------------------------ */
 	.sm_mt_0 {margin-top: 0px !important;}
 	.sm_mt_5 {margin-top: 5px !important;}
 	.sm_mt_10 {margin-top: 10px !important;}
@@ -1833,10 +1729,6 @@
 	.sm_mt_250 {margin-top: 250px !important;}
 
 
-
-	/* ------------------------------------------ */
-	/* Margin Bottom */
-	/* ------------------------------------------ */
 	.sm_mb_0 {margin-bottom: 0px !important;}
 	.sm_mb_5 {margin-bottom: 5px !important;}
 	.sm_mb_10 {margin-bottom: 10px !important;}
@@ -1891,9 +1783,7 @@
 
 
 
-	/* ------------------------------------------ */
-	/* Margin Left */
-	/* ------------------------------------------ */
+
 	.sm_ml_0 {margin-left: 0px !important;}
 	.sm_ml_5 {margin-left: 5px !important;}
 	.sm_ml_10 {margin-left: 10px !important;}
@@ -1947,9 +1837,7 @@
 	.sm_ml_250 {margin-left: 250px !important;}
 
 
-	/* ------------------------------------------ */
-	/* Margin Right */
-	/* ------------------------------------------ */
+
 	.sm_mr_0 {margin-right: 0px !important;}
 	.sm_mr_5 {margin-right: 5px !important;}
 	.sm_mr_10 {margin-right: 10px !important;}
@@ -2006,9 +1894,7 @@
 
 
 
-	/* ------------------------------------------ */
-	/* Padding All */
-	/* ------------------------------------------ */
+
 	.sm_p_0 {padding: 0px !important;}
 	.sm_p_5 {padding: 5px !important;}
 	.sm_p_10 {padding: 10px !important;}
@@ -2062,10 +1948,6 @@
 	.sm_p_250 {padding: 250px !important;}
 
 
-
-	/* ------------------------------------------ */
-	/* Padding Top */
-	/* ------------------------------------------ */
 	.sm_pt_0 {padding-top: 0px !important;}
 	.sm_pt_5 {padding-top: 5px !important;}
 	.sm_pt_10 {padding-top: 10px !important;}
@@ -2119,9 +2001,6 @@
 	.sm_pt_250 {padding-top: 250px !important;}
 
 
-	/* ------------------------------------------ */
-	/* Padding Bottom */
-	/* ------------------------------------------ */
 	.sm_pb_0 {padding-bottom: 0px !important;}
 	.sm_pb_5 {padding-bottom: 5px !important;}
 	.sm_pb_10 {padding-bottom: 10px !important;}
@@ -2176,9 +2055,6 @@
 
 
 
-	/* ------------------------------------------ */
-	/* Padding Left */
-	/* ------------------------------------------ */
 	.sm_pl_0 {padding-left: 0px !important;}
 	.sm_pl_5 {padding-left: 5px !important;}
 	.sm_pl_10 {padding-left: 10px !important;}
@@ -2232,9 +2108,6 @@
 	.sm_pl_250 {padding-left: 250px !important;}
 
 
-	/* ------------------------------------------ */
-	/* Padding Right */
-	/* ------------------------------------------ */
 	.sm_pr_0 {padding-right: 0px !important;}
 	.sm_pr_5 {padding-right: 5px !important;}
 	.sm_pr_10 {padding-right: 10px !important;}
@@ -2290,9 +2163,7 @@
 
 
 @media only screen and (max-width: 767px) {
-	/* ------------------------------------------ */
-	/* Margin All */
-	/* ------------------------------------------ */
+
 	.xs_m_0 {margin: 0px !important;}
 	.xs_m_5 {margin: 5px !important;}
 	.xs_m_10 {margin: 10px !important;}
@@ -2346,10 +2217,6 @@
 	.xs_m_250 {margin: 250px !important;}
 
 
-
-	/* ------------------------------------------ */
-	/* Margin Top */
-	/* ------------------------------------------ */
 	.xs_mt_0 {margin-top: 0px !important;}
 	.xs_mt_5 {margin-top: 5px !important;}
 	.xs_mt_10 {margin-top: 10px !important;}
@@ -2403,10 +2270,6 @@
 	.xs_mt_250 {margin-top: 250px !important;}
 
 
-
-	/* ------------------------------------------ */
-	/* Margin Bottom */
-	/* ------------------------------------------ */
 	.xs_mb_0 {margin-bottom: 0px !important;}
 	.xs_mb_5 {margin-bottom: 5px !important;}
 	.xs_mb_10 {margin-bottom: 10px !important;}
@@ -2461,9 +2324,7 @@
 
 
 
-	/* ------------------------------------------ */
-	/* Margin Left */
-	/* ------------------------------------------ */
+
 	.xs_ml_0 {margin-left: 0px !important;}
 	.xs_ml_5 {margin-left: 5px !important;}
 	.xs_ml_10 {margin-left: 10px !important;}
@@ -2517,9 +2378,7 @@
 	.xs_ml_250 {margin-left: 250px !important;}
 
 
-	/* ------------------------------------------ */
-	/* Margin Right */
-	/* ------------------------------------------ */
+
 	.xs_mr_0 {margin-right: 0px !important;}
 	.xs_mr_5 {margin-right: 5px !important;}
 	.xs_mr_10 {margin-right: 10px !important;}
@@ -2576,9 +2435,7 @@
 
 
 
-	/* ------------------------------------------ */
-	/* Padding All */
-	/* ------------------------------------------ */
+	
 	.xs_p_0 {padding: 0px !important;}
 	.xs_p_5 {padding: 5px !important;}
 	.xs_p_10 {padding: 10px !important;}
@@ -2633,9 +2490,7 @@
 
 
 
-	/* ------------------------------------------ */
-	/* Padding Top */
-	/* ------------------------------------------ */
+	
 	.xs_pt_0 {padding-top: 0px !important;}
 	.xs_pt_5 {padding-top: 5px !important;}
 	.xs_pt_10 {padding-top: 10px !important;}
@@ -2689,9 +2544,6 @@
 	.xs_pt_250 {padding-top: 250px !important;}
 
 
-	/* ------------------------------------------ */
-	/* Padding Bottom */
-	/* ------------------------------------------ */
 	.xs_pb_0 {padding-bottom: 0px !important;}
 	.xs_pb_5 {padding-bottom: 5px !important;}
 	.xs_pb_10 {padding-bottom: 10px !important;}
@@ -2746,9 +2598,7 @@
 
 
 
-	/* ------------------------------------------ */
-	/* Padding Left */
-	/* ------------------------------------------ */
+
 	.xs_pl_0 {padding-left: 0px !important;}
 	.xs_pl_5 {padding-left: 5px !important;}
 	.xs_pl_10 {padding-left: 10px !important;}
@@ -2802,9 +2652,7 @@
 	.xs_pl_250 {padding-left: 250px !important;}
 
 
-	/* ------------------------------------------ */
-	/* Padding Right */
-	/* ------------------------------------------ */
+
 	.xs_pr_0 {padding-right: 0px !important;}
 	.xs_pr_5 {padding-right: 5px !important;}
 	.xs_pr_10 {padding-right: 10px !important;}
