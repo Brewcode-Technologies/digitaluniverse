@@ -620,8 +620,12 @@
             </div>
           </div>
           <div class="col-lg-5 col-md-7">
+           
             <div class="tf__portfolio_page_text">
-              <p>
+              <p class="mb-3"><b>Address : </b> &nbsp;613 Landon Way Justin Texas 76247, USA</p>
+              <p class="mb-3"><b>Phone No : </b> &nbsp;+1 (214) 663-5980</p>
+              <p class="mb-4"><b>Email : </b> &nbsp;DigitalUniverse@gmail.com</p>
+              <p class="">
                 Contact us to discover how TheDigitalUniverse can help elevate
                 your digital presence. Our team is ready to provide tailored
                 solutions that drive success and growth.
@@ -629,53 +633,45 @@
             </div>
           </div>
         </div>
-        <form class="tf__contact_form tf__contact_page_form">
+        <form class="tf__contact_form tf__contact_page_form" action="./php/send_mail.php" method="POST" id="contactForm">
           <div class="row">
-            <div class="col-md-6">
-              <div class="tf__contact_form_imput">
-                <label>First Name:</label>
-                <input type="text" placeholder="e.g. Willy" />
+              <div class="col-md-6">
+                  <div class="tf__contact_form_imput">
+                      <label>First Name:</label>
+                      <input type="text" name="name" placeholder="e.g. Willy" required />
+                  </div>
               </div>
-            </div>
-            <div class="col-md-6">
-              <div class="tf__contact_form_imput">
-                <label>Email:</label>
-                <input type="email" placeholder="e.g. youremail@gmail.com" />
+              <div class="col-md-6">
+                  <div class="tf__contact_form_imput">
+                      <label>Email:</label>
+                      <input type="email" name="email" placeholder="e.g. youremail@gmail.com" required />
+                  </div>
               </div>
-            </div>
-            <div class="col-md-6">
-              <div class="tf__contact_form_imput">
-                <label>Phone:</label>
-                <input type="text" placeholder="e.g. +8801" />
+              <div class="col-md-6">
+                  <div class="tf__contact_form_imput">
+                      <label>Phone:</label>
+                      <input type="text" name="phone" placeholder="e.g. +8801" required />
+                  </div>
               </div>
-            </div>
-            <div class="col-md-6">
-              <div class="tf__contact_form_imput">
-                <label>subject:</label>
-                <input type="text" placeholder="e.g. I need help" />
+              <div class="col-md-6">
+                  <div class="tf__contact_form_imput">
+                      <label>Subject:</label>
+                      <input type="text" name="subject" placeholder="e.g. I need help" required />
+                  </div>
               </div>
-            </div>
-            <div class="col-xl-12">
-              <div class="tf__contact_form_imput">
-                <label>Message:</label>
-                <textarea
-                  rows="4"
-                  placeholder="e.g. you need any help"
-                ></textarea>
+              <div class="col-xl-12">
+                  <div class="tf__contact_form_imput">
+                      <label>Message:</label>
+                      <textarea name="message" rows="4" placeholder="e.g. you need any help" required></textarea>
+                  </div>
+                  <button class="circle_btn circle_btn_2 learn_more_2" type="submit">
+                      <span>Send Message</span>
+                  </button>
               </div>
-              <button
-                class="circle_btn circle_btn_2 learn_more_2"
-                type="submit"
-              >
-                <i class="js-magner-bubble magnet-bubble"></i
-                ><span class="js-magnet-content magnet-content">
-                  <i class="fx-icon-long-next-arrow"></i>
-                  Send Message
-                </span>
-              </button>
-            </div>
           </div>
-        </form>
+      </form>
+      
+      
       </div>
     </section>
     <section
@@ -715,6 +711,8 @@
                   class="img-fluid w-100"
                 />
               </a>
+              <p class="address">613 Landon Way Justin Texas <br/> 76247, USA</p>
+           
               <ul class="d-flex flex-wrap">
                 <li>
                   <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -862,5 +860,6 @@
     <script src="./js/plugin.js"></script>
     <script src="./js/animation.js"></script>
     <script src="./js/main.js"></script>
+ 
   </body>
 </html>

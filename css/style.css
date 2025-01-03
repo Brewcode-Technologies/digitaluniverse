@@ -284,6 +284,10 @@ html.lenis {
   -o-transform: translateY(-50%);
 }
 
+.logo{
+  width:300px
+}
+
 .prevArrow {
   right: auto;
   left: 30px;
@@ -640,11 +644,13 @@ html.lenis {
   z-index: -1;
 }
 
+
 .navbar-brand {
   width: 170px;
   padding: 0;
   margin: 0;
   margin-left: 40px;
+  width: 200px !important
 }
 
 .main_menu .navbar-nav .nav-item {
@@ -1836,7 +1842,8 @@ footer {
 
 .footer_content .footer_logo {
   display: block;
-  width: 170px;
+  width: 220px;
+
 }
 
 .footer_content p {
@@ -3507,4 +3514,9 @@ h5.preloader-text::after {
   background-color:var(--colorPrimary); 
   color: var(--colorWhite) !important; 
 
+}
+
+.address{
+  font-size: 16px;
+  line-height: 30px;
 }

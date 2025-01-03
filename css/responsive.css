@@ -1127,7 +1127,7 @@
   }
 
   .footer_content .footer_logo {
-    width: 140px;
+    width: 100px !important;
   }
 
   .footer_content,
@@ -1769,7 +1769,7 @@
   }
 
   .footer_content .footer_logo {
-    width: 140px;
+    width: 250px !important;
   }
 
   .footer_content,
@@ -2413,7 +2413,7 @@
   }
 
   .footer_content .footer_logo {
-    width: 140px;
+    width: 200px !important;
   }
 
   .footer_content,
